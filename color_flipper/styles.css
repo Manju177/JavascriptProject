@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.MyText {
+  color: white;
+  font-style: italic;
+  position: absolute;
+  top: 30%;
+  left: 48%;
+  transform: translate(-40%, -48%);
+}
+
+.MyButton {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-30%, -50%);
+}
+.Button {
+  padding: 15px;
+  border-radius: 5px;
+}
+.MyOwn {
+  color: white;
+  font-style: italic;
+  position: absolute;
+  top: 55%;
+  left: 51%;
+  transform: translate(-50%, -51%);
+}
+
+.ColorPicker {
+  position: absolute;
+  top: 65%;
+  left: 52%;
+  transform: translate(-60%, -52%);
+}
+.Picker {
+  height: 40px;
+  width: 82px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .MyText {
+    position: absolute;
+    top: 35%;
+    left: 45%;
+    font-size: 12px;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  .MyButton {
+    position: absolute;
+    top: 45%;
+    left: 47%;
+  }
+  .Button {
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .MyOwn{
+    position: absolute;
+    top:55%;
+    font-size: 12px;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+
+  }
+  .Picker {
+    width: 78px;
+  }
+  .ColorPicker {
+    position: absolute;
+    top: 65%;
+  }
+}
